@@ -28,7 +28,7 @@ public class TypeEx {
 		System.out.println("제한속도 = " + SPEED_LIMIT);
 		
 //		SPEED_LIMIT = 80; // 상수이므로 변경 불가하게 된다
-		System.out.println("제한속도= " + SPEED_LIMIT);
+		System.out.println("제한속도 = " + SPEED_LIMIT);
 	}
 	
 	// char 형 연숩
