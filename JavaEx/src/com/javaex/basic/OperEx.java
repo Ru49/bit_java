@@ -26,6 +26,8 @@ public class OperEx {
 		// 그렇지 않으면 Fail
 		message = score >= 80 ? "Good" : score >= 50 ? "Pass" : "Fail";
 		System.out.println("시험 결과: " + message);
+		// 중첩 가능하지만 가동석이 떨어지는 무체
+		// 복잡한 비교의 경우는 비교문으로 해결
 	}
 	
 	// 비트 연산자
