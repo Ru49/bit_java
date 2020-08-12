@@ -1,4 +1,4 @@
-package com.javaex.oop.goodsv2;
+package com.javaex.oop.goods.v2;
 
 // V2.
 // 접근 제한자의 이해

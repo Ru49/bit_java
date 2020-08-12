@@ -1,4 +1,4 @@
-package com.javaex.oop.goodsv2;
+package com.javaex.oop.goods.v2;
 
 // v2.
 // Goods 객체를 생성하여 사용하는 클래쓰
