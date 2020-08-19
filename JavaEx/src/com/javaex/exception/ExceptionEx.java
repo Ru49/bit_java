@@ -20,8 +20,8 @@ public class ExceptionEx {
 //			ex.excuteCheckedException(); // 체크드 익셉션 발생
 //			ex.excuteUncheckedException(); // 언체크드 익셉션 발생
 			System.out.println("10/0 = " + ex.divide(10, 0));
-		}catch (IOException e) {
-			System.err.println("예외 메서지:" + e.getMessage());
+//		}catch (IOException e) {
+//			System.err.println("예외 메서지:" + e.getMessage());
 		}catch (CustomArithmeticException e) {
 			// 본 예외는 RuntimeException의 자손이므로
 			// RuntimeException보다 위에서 catch 해 줘야
@@ -58,7 +58,7 @@ public class ExceptionEx {
 				// 예외 가능 코드 블락
 				System.out.println(intArray[3]);
 			} catch (IndexOutOfBoundsException e) {
-				System.out.println("예외 메서지:" + e.getMessage)();
+				System.out.println("예외 메서지:" + e.getMessage());
 			}
 			// finally는 생략 가능
 			System.out.println("End of code");
