@@ -26,7 +26,7 @@ public class StringEx {
 		
 		// 메서드 체이닝을 이용하여 문자열 조합
 		StringBuffer sb2 = new StringBuffer("This") // 초기화
-				.append(" is") // 추가
+				.append(" is pencile") // 추가
 				.insert(8, "my") // 삽입
 				.replace(8, 10, "your ");
 		String s = sb2.toString(); // 새로운 문자열이 생성, 할당
